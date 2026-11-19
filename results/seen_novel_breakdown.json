@@ -1,0 +1,62 @@
+{
+  "all": {
+    "n": 1502,
+    "ALFRED (local)": 66.96224894823906,
+    "Hate-CLIPper (adapted)": 74.223379118362,
+    "MemeCLIP (adapted)": 76.73916600552167,
+    "CLIP head, image only": 76.82363739009222,
+    "CLIP head, image + text": 76.8288206097291,
+    "Exemplar memory alone": 73.14689598649812,
+    "EMC": 80.6265176663538,
+    "EMC minus CLIP head, image only": {
+      "diff": 3.8028802762615896,
+      "lo": 1.5581655541970465,
+      "hi": 6.252184278181461
+    },
+    "EMC minus MemeCLIP (adapted)": {
+      "diff": 3.887351660832138,
+      "lo": 1.9242725871408501,
+      "hi": 5.836598401453416
+    }
+  },
+  "seen": {
+    "n": 790,
+    "ALFRED (local)": 79.99068932923257,
+    "Hate-CLIPper (adapted)": 80.20186061644063,
+    "MemeCLIP (adapted)": 81.0062379207256,
+    "CLIP head, image only": 80.81473787241696,
+    "CLIP head, image + text": 80.86915941318675,
+    "Exemplar memory alone": 80.47396021243462,
+    "EMC": 85.35439431688735,
+    "EMC minus CLIP head, image only": {
+      "diff": 4.5396564444703955,
+      "lo": 1.597117579814513,
+      "hi": 7.667031393414542
+    },
+    "EMC minus MemeCLIP (adapted)": {
+      "diff": 4.348156396161755,
+      "lo": 2.142754453343931,
+      "hi": 6.8404187065388
+    }
+  },
+  "novel": {
+    "n": 712,
+    "ALFRED (local)": 44.69099213724984,
+    "Hate-CLIPper (adapted)": 63.16281476591259,
+    "MemeCLIP (adapted)": 68.37755513734714,
+    "CLIP head, image only": 67.39261691837977,
+    "CLIP head, image + text": 67.76257636596615,
+    "Exemplar memory alone": 59.17883633373873,
+    "EMC": 70.9469572689769,
+    "EMC minus CLIP head, image only": {
+      "diff": 3.55434035059713,
+      "lo": -0.9414779704824267,
+      "hi": 8.134317172456361
+    },
+    "EMC minus MemeCLIP (adapted)": {
+      "diff": 2.569402131629758,
+      "lo": -0.8751070409783569,
+      "hi": 6.039116712882541
+    }
+  }
+}

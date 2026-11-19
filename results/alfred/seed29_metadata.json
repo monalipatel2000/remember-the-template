@@ -1,0 +1,45 @@
+{
+  "mode": "alfred",
+  "seed": 29,
+  "regimen": "tails",
+  "config": {
+    "epochs": 12,
+    "batch_size": 32,
+    "head_lr": 0.0001,
+    "tail_lr": 2e-05,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.1,
+    "clip_norm": 1.0,
+    "hidden_dim": 128,
+    "dropout": 0.1,
+    "warmup_epochs": 1
+  },
+  "initial_base_sha256": "53d79259434633a7075016f1fe55dffa7afda8c51615125e37581770bc07111d",
+  "initial_tails_sha256": "be5e976b11218afe9f4315b9fe84b086319c3ae042377d127bf1995257bd9817",
+  "parameter_counts_head": {
+    "base": 4136454,
+    "alignment": 0,
+    "expression": 0,
+    "total": 4136454
+  },
+  "trainable_parameters": 32489478,
+  "split_sha256": {
+    "train": "a695e3f36f4012abc89961c4363c37f7191adb94a1c57a57143e02c2c769f307",
+    "val": "6752100a2e934b53da8e5320eec211a01483bd3dee8fdfbffb17aaa00be9169a",
+    "test": "5c4e1b63171f2a29f4730f8745366aa1098a456cfa379434b914ddacb96e703c"
+  },
+  "source_sha256": {
+    "models.py": "7abb777dc02c8c2ae5f1183a8e71bc25c4d1ade257b60ffbe35b6049b4a5c2ec",
+    "encoder_tails.py": "3a0a515016670e64e1e42fa22541cde3ca4d1729d8d40cd9895c697febd813ec",
+    "train.py": "6cf40e56a99419c121852daf9a5890737ebc84fcf9b73c00a9830a05d1cef319",
+    "PROTOCOL.md": "098ca46fef6df17ad835553eb3ce28cbdef410dee134315b22d585da44d23e1a"
+  },
+  "cache_manifest_sha256": "41f6fdeadaec419f97a4232236be8e6db75cb6eed5446b9bf2e2ad18efdb1c49",
+  "training_label_revision": null,
+  "torch": "2.13.0+cu126",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "heldout_test_evaluated": false,
+  "selection_metric": "validation macro_f1",
+  "start_time_utc": "2026-10-18T20:43:44Z"
+}

@@ -1,0 +1,9 @@
+# Versions used for the paper (Python 3.13, CUDA 12.6). Nearby versions should work.
+torch==2.13.0
+transformers==5.16.1
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+scikit-learn==1.9.0
+pillow==12.3.0
+matplotlib==3.10.6
